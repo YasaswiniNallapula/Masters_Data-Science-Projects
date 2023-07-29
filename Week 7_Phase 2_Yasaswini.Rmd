@@ -85,7 +85,7 @@ Now that our packages are loaded, let’s read in and take a look at the data (D
 
 ```{r}
 #Load the dataset into R
-bank <- read.csv("D:/Aang/YASHU_FSU HUB/Yashu/SEM2_Spring23/Data Mining/Week 7/bank_marketing.csv",header=TRUE,sep=",")
+bank <- read.csv("path_to_your_location/bank_marketing.csv",header=TRUE,sep=",")
 colnames(bank) = c("age", "job", "marital", "education", "default", "balance", "housing", "loan", 
                    "contact", "day", "month", "duration", "campaign", "pdays", "previous", 
                    "poutcome", "y")
