@@ -8,7 +8,7 @@ library(randomForest)
 library(gmodels)
 
 #Load the dataset into R
-setwd("D:/Aang/YASHU_FSU HUB/Yashu/SEM2_Spring23/Machine learning/Final Project")
+setwd("Path_to_location_of_file")
 getwd()
 bank <- read.csv("bank_marketing.csv", header=TRUE, sep=",")
 
