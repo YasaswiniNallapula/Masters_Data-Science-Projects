@@ -17,7 +17,7 @@ library(randomForest)
 #library(naivebayes)
 
 #Load the dataset into R
-bank <- read.csv("D:/Aang/YASHU_FSU HUB/Yashu/SEM2_Spring23/Data Mining/Week 7/bank_marketing.csv",header=TRUE,sep=",")
+bank <- read.csv("Path_to_local_directory/bank_marketing.csv",header=TRUE,sep=",")
 colnames(bank) = c("age", "job", "marital", "education", "default", "balance", "housing", "loan", 
                    "contact", "day", "month", "duration", "campaign", "pdays", "previous", 
                    "poutcome", "y")
